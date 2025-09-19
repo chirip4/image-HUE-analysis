@@ -22,6 +22,7 @@ It separates green tones into different levels, allowing better visualization of
 1. Clone the repository:
 
 git clone https://github.com/Chirip4/crop-hue-analyzer.git
+
 cd crop-hue-analyzer
 
 2. Install dependencies:
