@@ -27,11 +27,22 @@ cd crop-hue-analyzer
 
 2. Install dependencies:
 
-   numpy,cv2, PIL, matplotlib
+   pathlib, os, numpy,cv2, PIL, matplotlib
    
 3. Run the Jupyter Notebook:
 
    jupyter notebook image_color_analyzer.ipynb
    
 4. Uplad a crop image and visualize green hue levels.
+
+### Image Directory Setup
+
+This project uses a flexible way to load images that works on any OS or cloud environment:
+
+- By default, it expects an `Images/` folder in the project root.
+- You can override this by setting an environment variable:
+
+```bash
+export IMAGES_DIR="/path/to/your/images"
+
 
