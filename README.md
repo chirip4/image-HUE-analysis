@@ -42,7 +42,11 @@ This project uses a flexible way to load images that works on any OS or cloud en
 - By default, it expects an `Images/` folder in the project root.
 - You can override this by setting an environment variable:
 
-```bash
 export IMAGES_DIR="/path/to/your/images"
+
+# Sample result:
+
+<img width="801" height="316" alt="imagen" src="https://github.com/user-attachments/assets/e9618622-ec4e-4401-8d8b-d12d7e4ac79c" />
+
 
 
